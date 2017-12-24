@@ -1,0 +1,41 @@
+body {
+    background: #111;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #eee;
+}
+
+#root {
+    display: block;
+    margin: 0 auto;
+}
+
+.signUp {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.form-group {
+    margin: auto;
+}
+
+input {
+    margin: 5px;
+}
+
+.itemGoal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1 1 auto;
+    flex-wrap: wrap;
+    margin: 0 15px;
+}
+
+.itemGoal textarea {
+    width: 350px;
+    height: 85px;
+}
